@@ -1,0 +1,2 @@
+vhdtdtfi -prj CC311_S1617_14100251 -o "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/DataMemory_S1617_14100251.vhi" -module DataMemory_S1617_14100251 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work DataMemory_S1617_14100251.vhd 
+vhdtdtfi -prj CC311_S1617_14100251 -o "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/DataMemory_S1617_14100251.vhi" -module DataMemory_S1617_14100251 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work DataMemory_S1617_14100251.vhd 

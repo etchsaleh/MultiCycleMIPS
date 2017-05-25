@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/MultiCycle_S1617_14100251_isim_beh.exe" -prj "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/MultiCycle_S1617_14100251_beh.prj" "work.MultiCycle_S1617_14100251" 

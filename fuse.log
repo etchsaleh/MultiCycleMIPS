@@ -1,0 +1,46 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/MultiCycle_S1617_14100251_isim_beh.exe" -prj "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/MultiCycle_S1617_14100251_beh.prj" "work.MultiCycle_S1617_14100251" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/SignExtend_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/ShiftLeft2_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/Reg_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/RegisterFile_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/MUXRegDst_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/MUX4to1_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/MUX2to1_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/Memory_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/InstructionReg_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/ControlUnit_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/ALU_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/ALUControl_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/MultiCycle_S1617_14100251.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/MultiCycle_S1617_14100251.vhd" Line 219: Actual for formal port sig is neither a static name nor a globally static expression
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 0 KB
+Fuse CPU Usage: 1160 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity ALUControl_S1617_14100251 [alucontrol_s1617_14100251_defaul...]
+Compiling architecture behavioral of entity ALU_S1617_14100251 [alu_s1617_14100251_default]
+Compiling architecture behavioral of entity Reg_S1617_14100251 [reg_s1617_14100251_default]
+Compiling architecture behavioral of entity ControlUnit_S1617_14100251 [controlunit_s1617_14100251_defau...]
+Compiling architecture behavioral of entity InstructionReg_S1617_14100251 [instructionreg_s1617_14100251_de...]
+Compiling architecture behavioral of entity MUX2to1_S1617_14100251 [mux2to1_s1617_14100251_default]
+Compiling architecture behavioral of entity MUX4to1_S1617_14100251 [mux4to1_s1617_14100251_default]
+Compiling architecture behavioral of entity MUXRegDst_S1617_14100251 [muxregdst_s1617_14100251_default]
+Compiling architecture behavioral of entity Memory_S1617_14100251 [memory_s1617_14100251_default]
+Compiling architecture behavioral of entity RegisterFile_S1617_14100251 [registerfile_s1617_14100251_defa...]
+Compiling architecture behavioral of entity ShiftLeft2_S1617_14100251 [shiftleft2_s1617_14100251_defaul...]
+Compiling architecture behavioral of entity SignExtend_S1617_14100251 [signextend_s1617_14100251_defaul...]
+Compiling architecture behavioral of entity multicycle_s1617_14100251
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 29 VHDL Units
+Built simulation executable C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/MultiCycle_S1617_14100251_isim_beh.exe
+Fuse Memory Usage: 0 KB
+Fuse CPU Usage: 1410 ms

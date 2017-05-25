@@ -1,0 +1,30 @@
+Command line:
+   MultiCycle_S1617_14100251_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52941
+
+Thu May 25 13:27:38 2017
+
+
+ Elaboration Time: 0.12 sec
+
+ Current Memory Usage: 0.065536 Meg
+
+ Total Signals          : 132
+ Total Nets             : 2721
+ Total Signal Drivers   : 39
+ Total Blocks           : 23
+ Total Primitive Blocks : 22
+ Total Processes        : 23
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 3099
+In process Memory_S1617_14100251.vhd:59 
+ 
+
+ Total Simulation Time: 0.59 sec
+
+ Current Memory Usage: 0.065536 Meg
+
+Thu May 25 13:34:42 2017
+

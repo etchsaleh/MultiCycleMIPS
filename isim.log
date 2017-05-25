@@ -1,0 +1,98 @@
+ISim log file
+Running: C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\MultiCycle_S1617_14100251_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/MultiCycle_S1617_14100251_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+# put current state 0
+current: No such HDL object
+# put currentstate 0 -radix hex
+# isim force add /multicycle_s1617_14100251/clkmain 1 -radix bin -value 0 -radix bin -time 25 ns -repeat 50 ns
+# put pcout 0 -radix dec
+# run all
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+ERROR: Index 64 out of bound 0 to 63. 
+ERROR: In process Memory_S1617_14100251.vhd:59 
+ 
+INFO: Simulator is stopped.
+ISim P.20131013 (signature 0x8ef4fb42)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+# put currentstate 0 -radix hex
+# put pcout 0 -radix dec
+# isim force add /multicycle_s1617_14100251/clkmain 1 -radix bin -value 0 -radix bin -time 25 ns -repeat 50 ns
+# run all
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+ERROR: Index 64 out of bound 0 to 63. 
+ERROR: In process Memory_S1617_14100251.vhd:59 
+ 
+INFO: Simulator is stopped.
+ISim P.20131013 (signature 0x8ef4fb42)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+# put currentstate 0 -radix hex
+# put pcout 0 -radix dec
+# run all
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# run all
+# isim force add /multicycle_s1617_14100251/clkmain 1 -radix bin -value 0 -radix bin -time 25 ns -repeat 50 ns
+# run all
+ERROR: Index 64 out of bound 0 to 63. 
+ERROR: In process Memory_S1617_14100251.vhd:59 
+ 
+INFO: Simulator is stopped.
+ISim P.20131013 (signature 0x8ef4fb42)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+# isim force add /multicycle_s1617_14100251/clkmain 1 -radix bin -value 0 -radix bin -time 25 ns -repeat 50 ns
+# isim force add /multicycle_s1617_14100251/clkmain 1 -radix bin -value 0 -radix bin -time 25 ns -repeat 50 ns
+# put currentstate 0 -radix hex
+# put pcout 0 -radix dec
+# run all
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_Memory_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1 us(1), Instance /multicycle_s1617_14100251/Inst_RegisterFile_S1617_14100251/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+ERROR: Index 64 out of bound 0 to 63. 
+ERROR: In process Memory_S1617_14100251.vhd:59 
+ 
+INFO: Simulator is stopped.
