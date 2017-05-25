@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # SingleCycleMIPS
 An implementation of the MIPS Single Cycle Processor using VHDL.
 =======
+=======
+>>>>>>> e8738c1072e4e89e0a01062d2f8271c070335939
 # MultiCycleMIPS
 An implementation of the MIPS Multi Cycle Processor using VHDL.
 ![Multi Cycle Datapath](https://i.imgur.com/mWXHWpT.png "Multi Cycle Datapath")
@@ -24,4 +27,7 @@ An implementation of the MIPS Multi Cycle Processor using VHDL.
 * After completing the final step for an instruction, the FSM returns to the initial state.
 
 ![FSM](https://www.cise.ufl.edu/~mssz/CompOrg/Fig4.22-MIPS-FSC-Composite.gif "FSM")
+<<<<<<< HEAD
+>>>>>>> e8738c1072e4e89e0a01062d2f8271c070335939
+=======
 >>>>>>> e8738c1072e4e89e0a01062d2f8271c070335939
